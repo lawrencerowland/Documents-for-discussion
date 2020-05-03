@@ -61,3 +61,8 @@ During production, we will need to use measured outcomes along with input data t
 ***How will this AI impact on the overall workflow?
 
 Regularly predicting project success will focus management attention on the right projects. It will improve forecasting accuracy, and thereby should increase overall project completion. It may also have a lesser effect on early project scoping and project selection. The impact on the portfolio manager would be a day a month. Since there are likely to be project reviews and interventions for failing projects already, it is likely that the time taken on these from model predictions would be substitution of existing tasks rather than new tasks. As this is implemented, there would be a backlog effect and a higher turnover and reallocation of project teams. 
+
+
+***Acknowledgements
+
+Written using AI canvas Template , © Agrawal, Gans, Goldfarb 2019. Modelling Using Orange Data mining. Data from World Bank. 
