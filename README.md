@@ -26,7 +26,7 @@ Use cases will be better suited to one type of ML method or another.
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":479,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://atmiddlenight.com/wp-content/uploads/2020/02/2020-02-subgraph-project-use-case-to-ML-model.png" alt="" class="wp-image-479"/><figcaption>Type of ML model suitable per Project Use Case. Models that are classical rather than machine learning in brackets. https://atmiddlenight.com</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://atmiddlenight.com/wp-content/uploads/2020/02/2020-02-subgraph-project-use-case-to-ML-model.png" alt="" class="wp-image-479"/><figcaption>Type of ML model suitable per Project Use Case. Models that are classical rather than machine learning in brackets.</figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -52,7 +52,7 @@ Use cases will be better suited to one type of ML method or another.
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Machine learning boosts most stages of the project lifecycle, from Project definition to close-out. This is an October 2019 snapshot of the various machine learning trials underway, mapped to the project lifecycle stages. </p>
+<p>Machine learning boosts most stages of the project lifecycle, from Project definition to close-out </p>
 <!-- /wp:paragraph -->
 
 
@@ -64,7 +64,7 @@ Taking portfolio data and applying ML for insight.
 The examples given so far are all low-code approaches so that portfolio managers can apply approaches themselves. 
 I will add some of the approaches requiring code once tidied up.
 
-Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see here.
+Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see (here)[https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/wiki/Machine-learning-via-graph-databases-for-portfolios-projects-and-programmes]
 
 #EXAMPLE: PROJECT SUCCESS PREDICTION ON WORLD BANK PROJECTS
 
