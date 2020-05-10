@@ -7,7 +7,7 @@ Apply machine learning to understand how to improve the project portfolio
 
 There is a full description [here](https://lawrencerowland.github.io/2020/05/05/Applying-Machine-Learning-at-different-levels.html), suggesting different ways of approaching the topic. 
 
-### Or straight to code and examples
+## Or straight to code and examples
 If you want to go straight to code, then here are the folder choices:
 
 1. [Project success Prediction](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/tree/master/project%20success%20prediction)
@@ -18,9 +18,7 @@ If you want to go straight to code, then here are the folder choices:
 
 <!-- /wp:paragraph -->
 Taking portfolio data and applying ML for insight. 
-The examples given so far are all low-code approaches so that portfolio managers can apply approaches themselves. 
-I will add some of the approaches requiring code once tidied up.
 
-Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see (here)[https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/wiki/Machine-learning-via-graph-databases-for-portfolios-projects-and-programmes]
+Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see (here)[https://lawrencerowland.github.io/2020/05/05/Applying-Machine-Learning-at-different-levels.html]
 
  
