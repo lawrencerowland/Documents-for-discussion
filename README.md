@@ -21,4 +21,4 @@ Taking portfolio data and applying ML for insight.
 
 Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see (here)[https://lawrencerowland.github.io/2020/05/05/Applying-Machine-Learning-at-different-levels.html]
 
- 
+ !ML-Project-models-status-LR.png
