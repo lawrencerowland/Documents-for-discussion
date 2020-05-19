@@ -10,10 +10,12 @@
 
 There is a full description [here](https://lawrencerowland.github.io/ML-for-portfolios.html), suggesting different ways of approaching the topic. 
 
-Further below are more details.
+If you have reasonable data on your projects or work-packages, then the example gives you a prototype for making a forecast with your own data, after making adjustments to reflect the particular project attributes you have recorded. 
+
+Further below is a summary business application of the first example. 
 
 # Or straight to code and examples
-If you want to go straight to code, then here are the folder choices:
+But if you want to go straight to details , then here are the folder choices:
 
 1. [Project success Prediction](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/tree/master/project-success-prediction)
 
