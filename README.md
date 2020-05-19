@@ -83,7 +83,7 @@ There are also useful low-code approaches with Azure. The examples below regardi
 
 ![](/images/Output-of-World-Mgt-survey-on-Azure-LR.png)
 
-![](/images/Output-World-Mgt survey-on-Azure-LR-overview.png)
+![](/images/Output-World-Mgt-survey-on-Azure-LR-overview.png)
 
 # Notes
 
