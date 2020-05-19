@@ -3,11 +3,11 @@ Project Success Prediction for large portfolios
 
 # Resources
 
-A five minute demo video is available [here](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/blob/master/project-success-prediction/2019%2006%20Project%20Success%20prediction%20ML%20LR.mov) To view, download. 
+A five minute demo video is available [here](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/blob/master/project-success-prediction/project-success-prediction-ML-LR.mov) To view, download. 
 
-Storyline for demo is [here](xxx)
+Storyline for demo is [here](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/blob/master/project-success-prediction/project-success-prediction-ML-LR.mov)
 
-Our Orange model is [here](xxx)
+Our Orange model is [here](https://github.com/lawrencerowland/Machine-learning-for-project-portfolios/blob/master/project-success-prediction/project-success-prediction.ows)
 
 Download the Orange environment [here](https://orange.biolab.si/download/)
 
@@ -63,27 +63,27 @@ Data transformation: For the target feature, some of the classes are rarely used
 
 Data Load: Sampling. For speed and simplicity of demonstration, we are using 10% of the projects
 
-![](/images/Project-success-Prediction/image2.png)
+![](/images/project-success-prediction/image2.png)
 
 # Train various supervised models and look for the best (test and score)**
 
-![](/images/Project-success-Prediction/image3.png)Five other models were tested beyond the four shown. For demonstration purposes we have focussed on the top four. This is easier to understand when we look at the Confusion matrix for the best performing, Random Forest for the 667 sampled instances. A client write-up would include an explanation of these different methods
+![](/images/project-success-prediction/image3.png)Five other models were tested beyond the four shown. For demonstration purposes we have focussed on the top four. This is easier to understand when we look at the Confusion matrix for the best performing, Random Forest for the 667 sampled instances. A client write-up would include an explanation of these different methods
 
-![](/images/Project-success-Prediction/image4.png)It would be instructive to look at the misclassified instances for a real client case*.* The more on the diagonal, the better it is. We can see for example, that it predicts 9 as highly satisfactory, although one of them is actually satisfactory. There are also 13 more highly satisfactory in reality, but those have been predicted as satisfactory.
+![](/images/project-success-prediction/image4.png)It would be instructive to look at the misclassified instances for a real client case*.* The more on the diagonal, the better it is. We can see for example, that it predicts 9 as highly satisfactory, although one of them is actually satisfactory. There are also 13 more highly satisfactory in reality, but those have been predicted as satisfactory.
 
-![](/images/Project-success-Prediction/image5.png)More generally, this information can be seen by looking at the ROC curves, (curves for Receiver Operating Characteristic), in this case the ROC curve for predicting “satisfactory” projects. The y axis shows “sensitivity, which is the probability that it finds true positives. It shows the false positive rate on the x-axis, which is also called the “specificity”. “The best possible prediction method would yield a point in the upper left corner or coordinate (0,1) of the ROC space, representing 100% sensitivity (no false negatives) and 100% specificity (no false positives). “
+![](/images/project-success-prediction/image5.png)More generally, this information can be seen by looking at the ROC curves, (curves for Receiver Operating Characteristic), in this case the ROC curve for predicting “satisfactory” projects. The y axis shows “sensitivity, which is the probability that it finds true positives. It shows the false positive rate on the x-axis, which is also called the “specificity”. “The best possible prediction method would yield a point in the upper left corner or coordinate (0,1) of the ROC space, representing 100% sensitivity (no false negatives) and 100% specificity (no false positives). “
 
-![](/images/Project-success-Prediction/image6.png)Now it is easier to understand the summary results. AUC is under the ROC curve. The closer to 1 the better, as it is easier to separate false positives from false negatives. Classification accuracy is the proportion of correctly classified examples. Precision is the proportion of true positives among instances classified as positive. Recall is the proportion of true positives among all positive instances in the data (i.e. the predicted “satisfactories” amongst all the “satisfactories”). F1 is a blend of two of the others.
+![](/images/project-success-prediction/image6.png)Now it is easier to understand the summary results. AUC is under the ROC curve. The closer to 1 the better, as it is easier to separate false positives from false negatives. Classification accuracy is the proportion of correctly classified examples. Precision is the proportion of true positives among instances classified as positive. Recall is the proportion of true positives among all positive instances in the data (i.e. the predicted “satisfactories” amongst all the “satisfactories”). F1 is a blend of two of the others.
 
 # Data exploration, beyond the classification model
 
-![](/images/Project-success-Prediction/image7.png)Prediction is different from Understanding. We know we can predict well from within this dataset, but this doesn’t mean we understand what is going on. There are some other workflows we can explore.
+![](/images/project-success-prediction/image7.png)Prediction is different from Understanding. We know we can predict well from within this dataset, but this doesn’t mean we understand what is going on. There are some other workflows we can explore.
 
 We ran a decision tree, to get a sense of which variables are most likely to dominate. It is not the model we eventually chose, but it gives a good and interpretable answer. This shows which questions most quickly get an answer as to whether a given project is satisfactory. This is a narrow slice. The way to read this is to keep going down layers until you get an answer that is acurate enough for your purposes. So its best guess, is that it is Satisfactory, if it knows nothing else. Then it would look at the QAE rating, and if, for example, this was un-rated, then it would be more confident that it would end up being satisfactory. It would then look at how much of the spend was eventually cancelled, and if this was less than $30k then it would be even more confident that it would end up being satisfactory.
 
 We explored the statistics, which identifies which features are likely to be most important. “The Rank widget considers class-labeled datasets ...and scores the attributes according to their correlation with the class”. I don’t properly understand these yet.
 
-![](/images/Project-success-Prediction/image8.png)
+![](/images/project-success-prediction/image8.png)
 
 # Unsupervised learning
 
@@ -95,7 +95,7 @@ dendrogram shows four main clusters of projects
 
 zoom in on detail of a couple of clusters
 
-![](/images/Project-success-Prediction/image9.png)![](/images/Project-success-Prediction/image10.png)![](/images/Project-success-Prediction/image11.png)
+![](/images/project-success-prediction/image9.png)![](/images/project-success-prediction/image10.png)![](/images/project-success-prediction/image11.png)
 
 We then ran some other unsupervised learning models:
 
@@ -105,11 +105,11 @@ t-SNE Stochastic nearest neighbor, coloured to show evaluation type
 
 Free Viz stratifies high performing projects against three useful quantitative variables
 
-![](/images/Project-success-Prediction/image12.png)![](/images/Project-success-Prediction/image13.png)![](/images/Project-success-Prediction/image14.png)
+![](/images/project-success-prediction/image12.png)![](/images/project-success-prediction/image13.png)![](/images/project-success-prediction/image14.png)
 
 # Deployment for Client Portfolio Management
 
-![](/images/Project-success-Prediction/image15.png)Once we had agreed the model with the client, we would make some further small improvements to the Random Forest model and prepare a plan to deploy it against the live portfolio. To do this, we might use the AI canvas as a template to communicate this to the client portfolio manager and related teams. The operational changes could be summarised under the following headings:
+![](/images/project-success-prediction/image15.png)Once we had agreed the model with the client, we would make some further small improvements to the Random Forest model and prepare a plan to deploy it against the live portfolio. To do this, we might use the AI canvas as a template to communicate this to the client portfolio manager and related teams. The operational changes could be summarised under the following headings:
 
 <span class="underline">Prediction:</span> Predict during project implementation which World Bank projects will be evaluated as Satisfactory after the project completes.
 

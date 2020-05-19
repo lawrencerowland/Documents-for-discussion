@@ -21,7 +21,7 @@ If you want to go straight to code, then here are the folder choices:
 
 1. [Natural language processing for assessing your project domain using Gensim and other Python libraries](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries)
 
-# EXAMPLE: PROJECT SUCCESS PREDICTION ON WORLD BANK PROJECTS
+# Example: Project Success Prediction on 12,000 World Bank projects
 
 ## What task/decision are you examining?
 
@@ -66,11 +66,15 @@ Regularly predicting project success will focus management attention on the righ
 
 Currently the approaches are conventional ML applied to project data from spreadsheets and relational databases. For ML applied to project data taken from graph databases,see (xx)[xx]
 
+# Overview of other examples
+Please raise an issue if you want any more of these uploaded - I haven't got around to it yet. 
  ![](images/ML-Project-models-status-LR.png)
 
-## Acknowledgements
+# Acknowledgements
 
-Modelling Using Orange Data mining. 
-Data from World Bank.
-Questions from using AI canvas Template © Agrawal, Gans, Goldfarb 2019. 
+- Modelling Using Orange Data mining. 
+
+- Data from World Bank.
+
+- Questions from using AI canvas Template © Agrawal, Gans, Goldfarb 2019. 
 
