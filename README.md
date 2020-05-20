@@ -25,6 +25,22 @@ But if you want to go straight to details , then here are the folder choices:
 
 1. [Natural language processing for assessing your project domain using Gensim and other Python libraries](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries)
 
+# Further use cases
+
+|                    |                                                                                         |                             |                                    |                                                                                                                         |
+| ------------------ | --------------------------------------------------------------------------------------- | --------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Order of value** | **Question**                                                                            | **Question type**           | **Dominant machine learning type** | **Training data**                                                                                                       |
+| 1                  | Which projects will succeed ?                                                           | Classification              | Supervised learning                | Project lists, identifying which have succeeded, with additional columns of features that may be relevant               |
+| 2                  | Which engagements will succeed ?                                                        | Classification              | Supervised learning                | Engagement lists, as above                                                                                              |
+| 3                  | Which prospects are most likely to succeed ?                                            | Classification              | Supervised learning                | Historical data on which prospects converted and which didn’t, with additional columns of features that may be relevant |
+| 4                  | Which services get the greatest uptake ?                                                | Classification              | Supervised learning                | Historical data on which prospects converted and which didn’t, clearly identifying type of service                      |
+| 5                  | Which companies are most likely to become new clients ?                                 | Classification              | Supervised learning                | External market data on all our clients, clearly identified by sub sector                                               |
+| 6                  | Which customers are we most likely to lose (churn)                                      | Classification              | Supervised learning                | External market data on all our clients, showing sector information, and showing length and size of each engagement     |
+| 7                  | What delay / costs might this project incurr ?                                          | Numerical prediction        | Supervised learning                | Overspend or delay per project, relative to first estimate, and including other project features                        |
+| 8                  | Find similar documents to use for writing proposals                                     | Natural language processing | Unsupervised learning              | Libraries of previous proposals, ideally already in pdf or Word rather than PPt                                         |
+| 9                  | Look for common topics across (un) successful project / engagement folders / interviews | Natural language processing | Unsupervised learning              | Libraries of (un) successful proposals or engagements                                                                   |
+| 10                 | Topic summarisation for an engagement                                                   | Natural language processing | Unsupervised learning              | Library of 1 Client or assignment data covering broad range of client contexts and challenges and approaches            |
+
 # Example: Project Success Prediction on 12,000 projects
 
 ## What task/decision are you examining?
