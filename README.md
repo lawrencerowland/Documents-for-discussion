@@ -25,6 +25,25 @@ But if you want to go straight to details , then here are the folder choices:
 
 1. [Natural language processing for assessing your project domain using Gensim and other Python libraries](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries)
 
+# Use cases currently written up
+
+These are the ones I have currently written up. If you wish to see any of the use cases mentioned [previously](https://lawrencerowland.github.io/ML-for-portfolios.html) then please ask me, and I will prioritise writing these up. 
+
+1. **Project success Prediction** This is possible if:
+- you are able to label historical projects or work-packages as success / failure, or similar categories
+- you have data for a significant number of these previous projects comprised of a number of project features or attributes per project
+This can comprise a training set to train a model to look for early signs that projects may not succeed. During the training process, you will be able to examine model sensitivity and precision - to see whether the model will be able to make predictions for new data. If so, you will be able to:
+- detect project anomalies in current project reports, or
+- identify which project proposals are likely to succeed before starting them. 
+
+1. **Natural language processing for assessing your project domain using Orange** Rather than a bulky framework of project-management tasks, it is worthwhile having a framework that meets the particular requirements of your clients, sector or company. There will be more emphasis on some tasks, and some will not be needed. 
+Your business and portfolio will have  hundreds or thousands of documents relevant to project best-practice in your sector. Natural language processing is a way of mining the text to understand what the topics are within a business area. Orange is a no-code environment for doing this. 
+Where the team is experienced in the business sector, or where there is time to interview appropriate experts, then this approach can be complemented by structuring the key project tasks - by working with these experts to explain the steps and principles they apply.
+
+1. **Natural language processing for assessing your project domain using Gensim and other Python libraries**
+This does the same as the above use case, but requires a little coding experience. The code is provided, so it is only necessary to run it on the document library that the team provides for their business sector. The code is provided in Jupiter notebooks, which lay out the steps at each stage. 
+
+
 # Further use cases
 
 |                    |                                                                                         |                             |                                    |                                                                                                                         |
